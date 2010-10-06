@@ -250,7 +250,7 @@ def buildtree(rows,scoref=entropy):
     return decisionnode(results=uniquecounts(rows))
     
     
-tree = buildtree(my_data)
+tree = buildtree(my_data2)
 printtree(tree)
 drawtree(tree)
     
